@@ -46,7 +46,6 @@ int check_tty(char **env)
 
 int main(int ac, char **av, char **env)
 {
-    radar_t *radar = malloc(sizeof(radar_t));
     int indicator = check_tty(env);
 
     if (indicator != 0)
@@ -58,9 +57,6 @@ int main(int ac, char **av, char **env)
     }
     if (print_help(av[1]) == 1)
         return (0);
-    init_list(radar);
-    if (radar_loop(radar, av[1]) != 0)
-        return (84);
-    free(radar);
+
     return (0);
 }
