@@ -7,10 +7,6 @@ My Radar is a 2D visualization panel simulating air traffic control (ATC), built
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Script Format](#script-format)
-- [Authorized Functions](#authorized-functions)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
